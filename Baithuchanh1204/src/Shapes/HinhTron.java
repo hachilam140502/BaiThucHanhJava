@@ -14,7 +14,8 @@ public class HinhTron extends HinhHoc {
     public void nhapBanKinh() {
         System.out. println("Bán Kính = ");
         Scanner scanner = new Scanner (System.in);
-        banKinh = scanner .nextFloat();   
+        banKinh = scanner .nextFloat();
+        sc.close(); 
     }
 
     public void tinhChuVi() {
